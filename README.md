@@ -22,10 +22,10 @@ docker run -d -p 49161:1521 -p 8080:8080 -e ORACLE_ALLOW_REMOTE=true -e ORACLE_D
 ```
 
 ```sql
-CREATE USER mcp 
-    IDENTIFIED BY mcp 
-    DEFAULT TABLESPACE TS_MCPD_01 
-    QUOTA 10M ON TS_MCPD_01 
+CREATE USER user 
+    IDENTIFIED BY password 
+    DEFAULT TABLESPACE tablespace_name 
+    QUOTA 10M ON tablespace_name 
     TEMPORARY TABLESPACE temp
     QUOTA 5M ON system;
 ```
