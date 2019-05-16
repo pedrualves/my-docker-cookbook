@@ -20,7 +20,7 @@ docker run -d -p 49160:22 -p 49161:1521 deepdiver/oracle-xe-11g
 ```docker
 docker run -d -p 49161:1521 -p 8080:8080 -e ORACLE_ALLOW_REMOTE=true -e ORACLE_DISABLE_ASYNCH_IO=true -e ORACLE_ENABLE_XDB=true deepdiver/docker-oracle-xe-11g
 ```
-
+### How to create new user
 ```sql
 CREATE USER user 
     IDENTIFIED BY password 
