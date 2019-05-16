@@ -14,7 +14,7 @@ docker pull deepdiver/docker-oracle-xe-11g
 ```
 
 ```docker
-docker run -d -p 49160:22 -p 49161:1521 deepdiver/oracle-xe-11g
+docker run -d -p 49160:22 -p 49161:1521 deepdiver/docker-oracle-xe-11g
 ```
 
 ```docker
